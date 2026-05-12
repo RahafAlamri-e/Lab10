@@ -32,7 +32,6 @@ public class JobPostService {
         oldJobPost.setDescription(jobPost.getDescription());
         oldJobPost.setLocation(jobPost.getLocation());
         oldJobPost.setSalary(jobPost.getSalary());
-        oldJobPost.setPostedDate(jobPost.getPostedDate());
 
         jobPostRepository.save(oldJobPost);
     }
